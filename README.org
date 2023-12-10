@@ -1,0 +1,11 @@
+* A Collection of flake templates for my projects
+
+** A basic setup for lualatex with minimal dependencies: [[./lualatex-basic]]
+
+A latex build with a relatively minimal subset of texlive as
+dependencies so you don't have to wait for gigabytes of TeX
+dependencies to download. Usage:
+
+#+begin_src zsh
+  nix flake new -t github:fiddlerwoaroof/nix-templates\#lualatex-basic my-document
+#+end_src

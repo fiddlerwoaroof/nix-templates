@@ -1,10 +1,10 @@
 {
-  description = "Pepper's flake templates";
+  description = "Ed's flake templates";
 
   outputs = { self, ... }: {
     templates = {
-      latex-basic = {
-        path = ./basic;
+      lualatex-basic = {
+        path = ./lualatex-basic;
         description = "A basic lualatex setup";
       };
     };
