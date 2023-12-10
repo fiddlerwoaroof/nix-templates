@@ -1,7 +1,7 @@
 {
   description = "Ed's flake templates";
 
-  outputs = { self, ... }: {
+  outputs = {self, ...}: {
     templates = {
       lualatex-basic = {
         path = ./lualatex-basic;
