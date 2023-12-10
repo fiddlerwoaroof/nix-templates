@@ -4,7 +4,8 @@
 
 A latex build with a relatively minimal subset of texlive as
 dependencies so you don't have to wait for gigabytes of TeX
-dependencies to download. Usage:
+dependencies to download. Doesn't include a =flake.lock=, which
+will be generated on first run. Usage:
 
 #+begin_src zsh
   nix flake new -t github:fiddlerwoaroof/nix-templates\#lualatex-basic my-document
